@@ -6,10 +6,10 @@
     var url = 'partials/' + ID + '.part';
     $.get(url)
       .success(function(data) {
-        $("#dynamicContent").html(data);
+        $('#dynamicContent').html(data);
       })
       .error(function() {
-        $("#dynamicContent").html('<p class="error"> page ' + ID + ' missing </p>');
+        $('#dynamicContent').html('<p class="error"> page ' + ID + ' missing </p>');
       });
   }
 
@@ -26,7 +26,6 @@
     // load the partial associated with ID
     getContent(ID);
   }
-
 
   // default to the #home route
   if (!location.hash) {

@@ -2,11 +2,16 @@ body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+  width: 750px;
+  margin: auto;
+}
+
+#top-bar {
+  margin-top: 15px;
 }
 
 #navbar {
-  width: 750px;
-  margin: auto;
+  float: right;
 }
 
 #navbar ul {
@@ -14,28 +19,49 @@ body {
   padding-left: 0px;
 }
 
+#clearfix {
+  clear: both;
+}
+
+a.site-title {
+  font-size: 43px;
+}
+
 #navbar li {
   display: inline;
 }
 
 #navbar a {
-  padding: 5px 5px 0px 5px;
-  color: #222;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #666;
   text-decoration: none;
   font-size: 1.2em;
+  transition: all 0.1s ease;
 }
 
 #navbar a.active {
-  color: slateblue;
+  border-bottom-color: #444;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+#navbar a:hover {
+  border-bottom-color: #444;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 #navbar a:first-child {
-  padding-left: 0px;
+  margin-left: 0px;
 }
 
 #mainContent {
   width: 750px;
   margin: auto;
+  font-size: 1.2rem;
 }
 
 #dynamicContent {
