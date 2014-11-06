@@ -28,6 +28,7 @@
   }
 
 
+  // default to the #home route
   if (!location.hash) {
     location.hash = '#home';
   }
