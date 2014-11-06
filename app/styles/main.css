@@ -42,3 +42,8 @@ body {
   width: 100%;
 }
 
+p.error {
+  color: #781F3B;
+}
+
+
