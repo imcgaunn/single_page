@@ -1,7 +1,18 @@
+/*
+ * File: app/scripts/main.js
+ * 91.461 Assignment 7:
+ * Ian McGaunn, UMass Lowell Computer Science, imcgaunn@cs.uml.edu
+ * Copyright (c) 2014 by Ian McGaunn. All rights reserved. May be freely
+ * copied or excerpted for educational purposes with credit to the author.
+ * updated by IDM on 11/6/2014
+ */
+
 'use strict';
 
 (function() {
 
+  // use jquery AJAX to fetch partial corresponding
+  // with param: ID and add it to the #dynamicContent div
   function getContent(ID) {
     var url = 'partials/' + ID + '.part';
     $.get(url)

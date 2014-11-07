@@ -1,3 +1,15 @@
+/*
+ * File: app/styles/main.css
+ * 91.461 Assignment 7:
+ * Ian McGaunn, UMass Lowell Computer Science, imcgaunn@cs.uml.edu
+ * Copyright (c) 2014 by Ian McGaunn. All rights reserved. May be freely
+ * copied or excerpted for educational purposes with credit to the author.
+ * updated by IDM on 11/6/2014
+ */
+
+/* default the body to a sensible font, and a pleasant background color
+ * also make the page a fixed wtih of 750px
+ */
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6,19 +18,32 @@ body {
   margin: auto;
 }
 
+/* position the top bar slightly below the top of the
+ * browser window
+ */
 #top-bar {
   margin-top: 15px;
 }
 
+/* float the div holding the navigation
+ * items to the right
+ */
 #navbar {
   float: right;
 }
 
+/* get rid of bullets, and zero out the padding
+ * on the unordered list holding each nav link.
+ */
 #navbar ul {
   list-style: none;
   padding-left: 0px;
 }
 
+/* an invisible div after the navigation bar
+ * that will prevent page elementsfrom floating on the left
+ * or right of it.
+ */
 #clearfix {
   clear: both;
 }
@@ -27,10 +52,12 @@ a.site-title {
   font-size: 43px;
 }
 
+/* allow li elements to exist on the same line */
 #navbar li {
   display: inline;
 }
 
+/* sane defaults for a link on a navigation bar */
 #navbar a {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -42,12 +69,14 @@ a.site-title {
   transition: all 0.1s ease;
 }
 
+/* distinguish the currently active link */
 #navbar a.active {
   border-bottom-color: #444;
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
 
+/* underline hovered link */
 #navbar a:hover {
   border-bottom-color: #444;
   border-bottom-style: solid;
@@ -58,16 +87,24 @@ a.site-title {
   margin-left: 0px;
 }
 
+/* make text readable and positioned appropriately
+ * in the main container.
+ */
 #mainContent {
   width: 750px;
   margin: auto;
   font-size: 1.2rem;
 }
 
+/* make this the same size as its parent */
 #dynamicContent {
   width: 100%;
 }
 
+/* if an AJAX request fails and a paragraph
+ * is added to page with class error, it will be
+ * styled accordingly
+ */
 p.error {
   color: #781F3B;
 }

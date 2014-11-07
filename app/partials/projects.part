@@ -1,0 +1,19 @@
+<h1 style="text-align:center">Projects</h1>
+
+<h3> Dynamic Multiplication Table </h3>
+<p>
+  A dynamic multiplication table webapp
+  that can take two ranges of numbers and generate
+  a standard multiplication table using javascript
+</p>
+<img src="images/multiplication_tables.png" width="100%">
+
+<h3> Flexmarks </h3>
+<p>
+  A chrome extension (currently in development)
+  for fuzzy matching against bookmarks. Similar to programs
+  like Alfred or Launchy, but for chrome bookmarks. Uses the fuse.js library
+  for flexible matching.
+</p>
+<p> See the source <a href="https://github.com/imcgaunn/flexmarks">here</a> </p>
+
