@@ -38,9 +38,9 @@
     getContent(ID);
   }
 
-  // default to the #home route
+  // default to the #about route
   if (!location.hash) {
-    location.hash = '#home';
+    location.hash = '#about';
   }
 
   // respond to hashchange event
