@@ -334,6 +334,16 @@ module.exports = function (grunt) {
           branch: 'gh-pages'
         }
       }
+    },
+
+    validation: {
+      options: {
+        reset: grunt.option('reset') || false,
+        stoponerror: false,
+      },
+      files: {
+        src: ['<%= config.app %>/*.html']
+      }
     }
   });
 
