@@ -1,1 +1,17 @@
-<p> this is a test of the ABOUT page partial </p>
+<h1 style="text-align: center">About Me</h1>
+<p>
+  Hi, my name is Ian. I'm a Computer Science student at UMass Lowell.
+  I'm interested in all kinds of programming, but I'm an especially
+  big fan of Clojure. I also do competitive yoyo; I am currently
+  the Massachusetts State Champion for the 18+ 1A division.
+
+This site exists to help organize my programming projects and thoughts.
+Feel free to look around.
+</p>
+
+<h3> Note: </h3>
+<p>
+  I recommend that everyone who has not witnessed competitive yoyo
+  watch the video below:
+</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/oayOIThxdmw" frameborder="0" allowfullscreen></iframe>
